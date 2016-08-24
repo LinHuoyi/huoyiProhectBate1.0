@@ -1,0 +1,25 @@
+platform:ios, ‘8.0’
+
+pod 'AFNetworking' 
+
+pod ‘MJRefresh’
+
+pod "Qiniu"#, "~> 7.0"
+
+pod 'BaiduMapKit' #百度地图SDK
+
+pod ‘FMDB’
+
+pod ‘ReactiveCocoa’,“~> 2.5”
+
+pod 'MJExtension'
+
+pod 'SDWebImage', '~>3.7'
+
+pod 'Masonry'
+
+pod 'UMengAnalytics-NO-IDFA'
+
+#pod 'EaseUI', :git => 'https://github.com/easemob/easeui-ios-cocoapods.git'
+
+#pod 'EaseMobSDKFull', :git => 'https://github.com/easemob/sdk-ios-cocoapods-integration.git'

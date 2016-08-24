@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B190170CB233E00030B1786D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F73702C18BD64241FCB773C /* libPods.a */; };
 		E7359BC01D6D95590027845C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7359BBF1D6D95590027845C /* main.m */; };
 		E7359BC31D6D95590027845C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7359BC21D6D95590027845C /* AppDelegate.m */; };
 		E7359BC61D6D95590027845C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7359BC51D6D95590027845C /* ViewController.m */; };
@@ -35,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B1B80539CF0A9333A4E08E0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		3F73702C18BD64241FCB773C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E66C45593782369537B3DA00 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E7359BBB1D6D95590027845C /* huoyiProhectBeata1_0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = huoyiProhectBeata1_0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7359BBF1D6D95590027845C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E7359BC11D6D95590027845C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B190170CB233E00030B1786D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C86EBA5E41500CB5A403786 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F73702C18BD64241FCB773C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8E97EB18D1DD3C7ED279FC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B1B80539CF0A9333A4E08E0 /* Pods.debug.xcconfig */,
+				E66C45593782369537B3DA00 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E7359BB21D6D95590027845C = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,8 @@
 				E7359BD71D6D95590027845C /* huoyiProhectBeata1_0Tests */,
 				E7359BE21D6D95590027845C /* huoyiProhectBeata1_0UITests */,
 				E7359BBC1D6D95590027845C /* Products */,
+				A8E97EB18D1DD3C7ED279FC1 /* Pods */,
+				5C86EBA5E41500CB5A403786 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7359BE81D6D95590027845C /* Build configuration list for PBXNativeTarget "huoyiProhectBeata1_0" */;
 			buildPhases = (
+				3513D5F9E482C6BB17DD192F /* Check Pods Manifest.lock */,
 				E7359BB71D6D95590027845C /* Sources */,
 				E7359BB81D6D95590027845C /* Frameworks */,
 				E7359BB91D6D95590027845C /* Resources */,
+				6B961AC4431B45289DFF55F2 /* Embed Pods Frameworks */,
+				E7B0B696645BA25F15F5B3D9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +234,7 @@
 				TargetAttributes = {
 					E7359BBA1D6D95590027845C = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = HHCMTDLP8P;
 					};
 					E7359BD31D6D95590027845C = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -264,6 +292,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3513D5F9E482C6BB17DD192F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6B961AC4431B45289DFF55F2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7B0B696645BA25F15F5B3D9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E7359BB71D6D95590027845C /* Sources */ = {
@@ -413,23 +489,31 @@
 		};
 		E7359BE91D6D95590027845C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B1B80539CF0A9333A4E08E0 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = huoyiProhectBeata1_0/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.huoyi.huoyiProhectBeata1-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		E7359BEA1D6D95590027845C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E66C45593782369537B3DA00 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = huoyiProhectBeata1_0/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.huoyi.huoyiProhectBeata1-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -498,6 +582,7 @@
 				E7359BEA1D6D95590027845C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7359BEB1D6D95590027845C /* Build configuration list for PBXNativeTarget "huoyiProhectBeata1_0Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +591,7 @@
 				E7359BED1D6D95590027845C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7359BEE1D6D95590027845C /* Build configuration list for PBXNativeTarget "huoyiProhectBeata1_0UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +600,7 @@
 				E7359BF01D6D95590027845C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
