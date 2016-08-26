@@ -42,16 +42,9 @@
     [Btn setTitle:title forState:UIControlStateNormal];
     
     // 设置文字颜色
-    [Btn setTitleColor:AFColorFontBlack forState:UIControlStateNormal];
-    [Btn setTitleColor:AFColorFontGray forState:UIControlStateHighlighted];
-    if ([title isEqualToString:@"预约记录"]) {
-        [Btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    }
-    if ([title isEqualToString:@"发送"]) {
-        [Btn setTitleColor:AFColorLabelGreen forState:UIControlStateNormal];
-    }
+
     // 设置文字大小
-    Btn.titleLabel.font = AFSizeFont30;
+    Btn.titleLabel.font = [UIFont systemFontOfSize:15];
     
     
     [Btn sizeToFit];

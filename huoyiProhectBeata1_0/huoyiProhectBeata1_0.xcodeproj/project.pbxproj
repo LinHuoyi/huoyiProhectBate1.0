@@ -67,6 +67,8 @@
 		E7F212771D6FDE1900E5FB49 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 		E7F212781D6FDE1900E5FB49 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		E7F212791D6FDE1900E5FB49 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		E7F2127F1D6FE08700E5FB49 /* HOHelpHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HOHelpHeader.h; sourceTree = "<group>"; };
+		E7F212801D6FE0F500E5FB49 /* HuoyiPch.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuoyiPch.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 		E7359BBD1D6D95590027845C /* huoyiProhectBeata1_0 */ = {
 			isa = PBXGroup;
 			children = (
+				E7F2127E1D6FE03100E5FB49 /* API_HelpFile */,
 				E7F212711D6FDE1900E5FB49 /* HUOGategory */,
 				E7359BC11D6D95590027845C /* AppDelegate.h */,
 				E7359BC21D6D95590027845C /* AppDelegate.m */,
@@ -155,6 +158,7 @@
 				E7359BCC1D6D95590027845C /* LaunchScreen.storyboard */,
 				E7359BCF1D6D95590027845C /* Info.plist */,
 				E7359BBF1D6D95590027845C /* main.m */,
+				E7F212801D6FE0F500E5FB49 /* HuoyiPch.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -190,6 +194,14 @@
 				E7F212791D6FDE1900E5FB49 /* UIView+Extension.m */,
 			);
 			path = HUOGategory;
+			sourceTree = "<group>";
+		};
+		E7F2127E1D6FE03100E5FB49 /* API_HelpFile */ = {
+			isa = PBXGroup;
+			children = (
+				E7F2127F1D6FE08700E5FB49 /* HOHelpHeader.h */,
+			);
+			path = API_HelpFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -526,6 +538,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/huoyiProhectBeata1_0/HuoyiPch.pch";
 				INFOPLIST_FILE = huoyiProhectBeata1_0/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.huoyi.huoyiProhectBeata1-0";
@@ -541,6 +554,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/huoyiProhectBeata1_0/HuoyiPch.pch";
 				INFOPLIST_FILE = huoyiProhectBeata1_0/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.huoyi.huoyiProhectBeata1-0";

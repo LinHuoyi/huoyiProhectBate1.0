@@ -26,7 +26,7 @@
         //部分不像改变字体的 把tag值设置成333跳过
         if(self.titleLabel.tag != 333){
             CGFloat fontSize = self.titleLabel.font.pointSize;
-            self.titleLabel.font = [UIFont systemFontOfSize:fontSize*AFSizeScale];
+            self.titleLabel.font = [UIFont systemFontOfSize:fontSize * AFSizeScale];
         }
     }
     return self;
@@ -49,7 +49,7 @@
         //部分不像改变字体的 把tag值设置成333跳过
         if(self.tag != 333){
             CGFloat fontSize = self.font.pointSize;
-            self.font = [UIFont systemFontOfSize:fontSize*AFSizeScale];
+            self.font = [UIFont systemFontOfSize:fontSize * AFSizeScale];
         }
     }
     return self;
