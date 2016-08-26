@@ -16,6 +16,10 @@
 		E7359BCE1D6D95590027845C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7359BCC1D6D95590027845C /* LaunchScreen.storyboard */; };
 		E7359BD91D6D95590027845C /* huoyiProhectBeata1_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7359BD81D6D95590027845C /* huoyiProhectBeata1_0Tests.m */; };
 		E7359BE41D6D95590027845C /* huoyiProhectBeata1_0UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7359BE31D6D95590027845C /* huoyiProhectBeata1_0UITests.m */; };
+		E7F2127A1D6FDE1900E5FB49 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F212731D6FDE1900E5FB49 /* UIBarButtonItem+Extension.m */; };
+		E7F2127B1D6FDE1900E5FB49 /* UIButton+AFFont.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F212751D6FDE1900E5FB49 /* UIButton+AFFont.m */; };
+		E7F2127C1D6FDE1900E5FB49 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F212771D6FDE1900E5FB49 /* UIImage+Extension.m */; };
+		E7F2127D1D6FDE1900E5FB49 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F212791D6FDE1900E5FB49 /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,14 @@
 		E7359BDF1D6D95590027845C /* huoyiProhectBeata1_0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = huoyiProhectBeata1_0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7359BE31D6D95590027845C /* huoyiProhectBeata1_0UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = huoyiProhectBeata1_0UITests.m; sourceTree = "<group>"; };
 		E7359BE51D6D95590027845C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7F212721D6FDE1900E5FB49 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		E7F212731D6FDE1900E5FB49 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		E7F212741D6FDE1900E5FB49 /* UIButton+AFFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AFFont.h"; sourceTree = "<group>"; };
+		E7F212751D6FDE1900E5FB49 /* UIButton+AFFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AFFont.m"; sourceTree = "<group>"; };
+		E7F212761D6FDE1900E5FB49 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		E7F212771D6FDE1900E5FB49 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		E7F212781D6FDE1900E5FB49 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		E7F212791D6FDE1900E5FB49 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,14 +137,12 @@
 		E7359BBD1D6D95590027845C /* huoyiProhectBeata1_0 */ = {
 			isa = PBXGroup;
 			children = (
+				E7F212711D6FDE1900E5FB49 /* HUOGategory */,
 				E7359BC11D6D95590027845C /* AppDelegate.h */,
 				E7359BC21D6D95590027845C /* AppDelegate.m */,
 				E7359BC41D6D95590027845C /* ViewController.h */,
 				E7359BC51D6D95590027845C /* ViewController.m */,
 				E7359BC71D6D95590027845C /* Main.storyboard */,
-				E7359BCA1D6D95590027845C /* Assets.xcassets */,
-				E7359BCC1D6D95590027845C /* LaunchScreen.storyboard */,
-				E7359BCF1D6D95590027845C /* Info.plist */,
 				E7359BBE1D6D95590027845C /* Supporting Files */,
 			);
 			path = huoyiProhectBeata1_0;
@@ -141,6 +151,9 @@
 		E7359BBE1D6D95590027845C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E7359BCA1D6D95590027845C /* Assets.xcassets */,
+				E7359BCC1D6D95590027845C /* LaunchScreen.storyboard */,
+				E7359BCF1D6D95590027845C /* Info.plist */,
 				E7359BBF1D6D95590027845C /* main.m */,
 			);
 			name = "Supporting Files";
@@ -162,6 +175,21 @@
 				E7359BE51D6D95590027845C /* Info.plist */,
 			);
 			path = huoyiProhectBeata1_0UITests;
+			sourceTree = "<group>";
+		};
+		E7F212711D6FDE1900E5FB49 /* HUOGategory */ = {
+			isa = PBXGroup;
+			children = (
+				E7F212721D6FDE1900E5FB49 /* UIBarButtonItem+Extension.h */,
+				E7F212731D6FDE1900E5FB49 /* UIBarButtonItem+Extension.m */,
+				E7F212741D6FDE1900E5FB49 /* UIButton+AFFont.h */,
+				E7F212751D6FDE1900E5FB49 /* UIButton+AFFont.m */,
+				E7F212761D6FDE1900E5FB49 /* UIImage+Extension.h */,
+				E7F212771D6FDE1900E5FB49 /* UIImage+Extension.m */,
+				E7F212781D6FDE1900E5FB49 /* UIView+Extension.h */,
+				E7F212791D6FDE1900E5FB49 /* UIView+Extension.m */,
+			);
+			path = HUOGategory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -346,7 +374,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7F2127A1D6FDE1900E5FB49 /* UIBarButtonItem+Extension.m in Sources */,
+				E7F2127B1D6FDE1900E5FB49 /* UIButton+AFFont.m in Sources */,
 				E7359BC61D6D95590027845C /* ViewController.m in Sources */,
+				E7F2127D1D6FDE1900E5FB49 /* UIView+Extension.m in Sources */,
+				E7F2127C1D6FDE1900E5FB49 /* UIImage+Extension.m in Sources */,
 				E7359BC31D6D95590027845C /* AppDelegate.m in Sources */,
 				E7359BC01D6D95590027845C /* main.m in Sources */,
 			);
