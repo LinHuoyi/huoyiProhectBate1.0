@@ -21,6 +21,7 @@
 
 #define AFViewWidth(w) AFScreenWidth * ((w)/750.0)
 #define AFViewHeight(h) AFScreenHeight * ((h)/1334.0)
+
 //不同设备的屏幕比例(当然倍数可以自己控制)
 #define AFSizeScale (( AFScreenHeight > 667.0) ? AFScreenHeight/667.0 : 1)
 
