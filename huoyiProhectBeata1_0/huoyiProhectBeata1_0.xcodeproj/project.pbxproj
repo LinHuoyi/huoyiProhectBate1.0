@@ -10,8 +10,6 @@
 		B190170CB233E00030B1786D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F73702C18BD64241FCB773C /* libPods.a */; };
 		E7359BC01D6D95590027845C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7359BBF1D6D95590027845C /* main.m */; };
 		E7359BC31D6D95590027845C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7359BC21D6D95590027845C /* AppDelegate.m */; };
-		E7359BC61D6D95590027845C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7359BC51D6D95590027845C /* ViewController.m */; };
-		E7359BC91D6D95590027845C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7359BC71D6D95590027845C /* Main.storyboard */; };
 		E7359BCB1D6D95590027845C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7359BCA1D6D95590027845C /* Assets.xcassets */; };
 		E7359BCE1D6D95590027845C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7359BCC1D6D95590027845C /* LaunchScreen.storyboard */; };
 		E7359BD91D6D95590027845C /* huoyiProhectBeata1_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7359BD81D6D95590027845C /* huoyiProhectBeata1_0Tests.m */; };
@@ -28,6 +26,9 @@
 		E7D75E7E1D77D0FB00DC2C9A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D75E7D1D77D0FB00DC2C9A /* Security.framework */; };
 		E7D75E841D77D11E00DC2C9A /* UMVideo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E7D75E821D77D11E00DC2C9A /* UMVideo.bundle */; };
 		E7D75E851D77D11E00DC2C9A /* UMVideoSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D75E831D77D11E00DC2C9A /* UMVideoSDK.a */; };
+		E7D75E8A1D77D51800DC2C9A /* HUOTest_1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D75E881D77D51800DC2C9A /* HUOTest_1ViewController.m */; };
+		E7D75E8B1D77D51800DC2C9A /* HUOTest_1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7D75E891D77D51800DC2C9A /* HUOTest_1ViewController.xib */; };
+		E7D75E8D1D77D60F00DC2C9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7D75E8C1D77D60F00DC2C9A /* Main.storyboard */; };
 		E7F2127A1D6FDE1900E5FB49 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F212731D6FDE1900E5FB49 /* UIBarButtonItem+Extension.m */; };
 		E7F2127B1D6FDE1900E5FB49 /* UIButton+AFFont.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F212751D6FDE1900E5FB49 /* UIButton+AFFont.m */; };
 		E7F2127C1D6FDE1900E5FB49 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F212771D6FDE1900E5FB49 /* UIImage+Extension.m */; };
@@ -60,9 +61,6 @@
 		E7359BBF1D6D95590027845C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E7359BC11D6D95590027845C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
 		E7359BC21D6D95590027845C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
-		E7359BC41D6D95590027845C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E7359BC51D6D95590027845C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E7359BC81D6D95590027845C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E7359BCA1D6D95590027845C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7359BCD1D6D95590027845C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7359BCF1D6D95590027845C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,6 +83,10 @@
 		E7D75E811D77D11E00DC2C9A /* UMVideoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMVideoAd.h; sourceTree = "<group>"; };
 		E7D75E821D77D11E00DC2C9A /* UMVideo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMVideo.bundle; sourceTree = "<group>"; };
 		E7D75E831D77D11E00DC2C9A /* UMVideoSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = UMVideoSDK.a; sourceTree = "<group>"; };
+		E7D75E871D77D51800DC2C9A /* HUOTest_1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUOTest_1ViewController.h; sourceTree = "<group>"; };
+		E7D75E881D77D51800DC2C9A /* HUOTest_1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUOTest_1ViewController.m; sourceTree = "<group>"; };
+		E7D75E891D77D51800DC2C9A /* HUOTest_1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HUOTest_1ViewController.xib; sourceTree = "<group>"; };
+		E7D75E8C1D77D60F00DC2C9A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		E7F212721D6FDE1900E5FB49 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
 		E7F212731D6FDE1900E5FB49 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
 		E7F212741D6FDE1900E5FB49 /* UIButton+AFFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AFFont.h"; sourceTree = "<group>"; };
@@ -188,12 +190,10 @@
 		E7359BBD1D6D95590027845C /* huoyiProhectBeata1_0 */ = {
 			isa = PBXGroup;
 			children = (
+				E7D75E861D77D50100DC2C9A /* MainClass */,
 				E7F212811D70226800E5FB49 /* HUOAppDelgate */,
 				E7F2127E1D6FE03100E5FB49 /* API_HelpFile */,
 				E7F212711D6FDE1900E5FB49 /* HUOGategory */,
-				E7359BC41D6D95590027845C /* ViewController.h */,
-				E7359BC51D6D95590027845C /* ViewController.m */,
-				E7359BC71D6D95590027845C /* Main.storyboard */,
 				E7359BBE1D6D95590027845C /* Supporting Files */,
 			);
 			path = huoyiProhectBeata1_0;
@@ -208,6 +208,7 @@
 				E7359BCF1D6D95590027845C /* Info.plist */,
 				E7359BBF1D6D95590027845C /* main.m */,
 				E7F212801D6FE0F500E5FB49 /* HuoyiPch.pch */,
+				E7D75E8C1D77D60F00DC2C9A /* Main.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -262,6 +263,16 @@
 				E7D75E811D77D11E00DC2C9A /* UMVideoAd.h */,
 			);
 			path = include;
+			sourceTree = "<group>";
+		};
+		E7D75E861D77D50100DC2C9A /* MainClass */ = {
+			isa = PBXGroup;
+			children = (
+				E7D75E871D77D51800DC2C9A /* HUOTest_1ViewController.h */,
+				E7D75E881D77D51800DC2C9A /* HUOTest_1ViewController.m */,
+				E7D75E891D77D51800DC2C9A /* HUOTest_1ViewController.xib */,
+			);
+			path = MainClass;
 			sourceTree = "<group>";
 		};
 		E7F212711D6FDE1900E5FB49 /* HUOGategory */ = {
@@ -406,9 +417,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7359BCE1D6D95590027845C /* LaunchScreen.storyboard in Resources */,
+				E7D75E8D1D77D60F00DC2C9A /* Main.storyboard in Resources */,
 				E7359BCB1D6D95590027845C /* Assets.xcassets in Resources */,
-				E7359BC91D6D95590027845C /* Main.storyboard in Resources */,
 				E7D75E841D77D11E00DC2C9A /* UMVideo.bundle in Resources */,
+				E7D75E8B1D77D51800DC2C9A /* HUOTest_1ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,11 +496,11 @@
 				E7F212841D70232200E5FB49 /* AppDelegate+HOinitTabarNav.m in Sources */,
 				E7F2127A1D6FDE1900E5FB49 /* UIBarButtonItem+Extension.m in Sources */,
 				E7F2127B1D6FDE1900E5FB49 /* UIButton+AFFont.m in Sources */,
-				E7359BC61D6D95590027845C /* ViewController.m in Sources */,
 				E7F2127D1D6FDE1900E5FB49 /* UIView+Extension.m in Sources */,
 				E7F2127C1D6FDE1900E5FB49 /* UIImage+Extension.m in Sources */,
 				E7359BC31D6D95590027845C /* AppDelegate.m in Sources */,
 				E7359BC01D6D95590027845C /* main.m in Sources */,
+				E7D75E8A1D77D51800DC2C9A /* HUOTest_1ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,14 +536,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E7359BC71D6D95590027845C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E7359BC81D6D95590027845C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E7359BCC1D6D95590027845C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

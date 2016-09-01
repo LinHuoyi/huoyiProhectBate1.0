@@ -13,9 +13,9 @@
 
 -(void)setupMainTabarBarController;
 {
-    UIViewController *vc = [UIViewController new];
+    HUOTest_1ViewController *vc = [HUOTest_1ViewController new];
     
-    vc.view.backgroundColor = [UIColor redColor];
+//    vc.view.backgroundColor = [UIColor redColor];
     
     
     self.window.rootViewController = vc;

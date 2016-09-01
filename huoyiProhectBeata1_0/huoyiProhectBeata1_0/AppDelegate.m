@@ -10,6 +10,8 @@
 
 #import "AppDelegate+HOinitTabarNav.h"
 
+
+
 @interface AppDelegate ()
 
 @end
@@ -21,6 +23,9 @@
     // Override point for customization after application launch.
     
     [self setupMainTabarBarController];
+    
+    [UMVideoAd initAppID:@"81ae95b3e56dd2ab" appKey:@"25843f97db25f41d" cacheVideo:YES];
+    
     
 
     
