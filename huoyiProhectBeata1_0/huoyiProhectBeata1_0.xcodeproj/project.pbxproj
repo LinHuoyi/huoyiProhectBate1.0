@@ -16,6 +16,18 @@
 		E7359BCE1D6D95590027845C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7359BCC1D6D95590027845C /* LaunchScreen.storyboard */; };
 		E7359BD91D6D95590027845C /* huoyiProhectBeata1_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7359BD81D6D95590027845C /* huoyiProhectBeata1_0Tests.m */; };
 		E7359BE41D6D95590027845C /* huoyiProhectBeata1_0UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7359BE31D6D95590027845C /* huoyiProhectBeata1_0UITests.m */; };
+		E7D75E6C1D77D09300DC2C9A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D75E6B1D77D09300DC2C9A /* SystemConfiguration.framework */; };
+		E7D75E6E1D77D09D00DC2C9A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D75E6D1D77D09D00DC2C9A /* CFNetwork.framework */; };
+		E7D75E701D77D0A700DC2C9A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D75E6F1D77D0A700DC2C9A /* MediaPlayer.framework */; };
+		E7D75E721D77D0B100DC2C9A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D75E711D77D0B100DC2C9A /* libz.tbd */; };
+		E7D75E741D77D0B900DC2C9A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D75E731D77D0B900DC2C9A /* StoreKit.framework */; };
+		E7D75E761D77D0CC00DC2C9A /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D75E751D77D0CB00DC2C9A /* CoreMotion.framework */; };
+		E7D75E781D77D0D700DC2C9A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D75E771D77D0D700DC2C9A /* AudioToolbox.framework */; };
+		E7D75E7A1D77D0E800DC2C9A /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D75E791D77D0E800DC2C9A /* libicucore.tbd */; };
+		E7D75E7C1D77D0F300DC2C9A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D75E7B1D77D0F300DC2C9A /* CoreTelephony.framework */; };
+		E7D75E7E1D77D0FB00DC2C9A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D75E7D1D77D0FB00DC2C9A /* Security.framework */; };
+		E7D75E841D77D11E00DC2C9A /* UMVideo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E7D75E821D77D11E00DC2C9A /* UMVideo.bundle */; };
+		E7D75E851D77D11E00DC2C9A /* UMVideoSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D75E831D77D11E00DC2C9A /* UMVideoSDK.a */; };
 		E7F2127A1D6FDE1900E5FB49 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F212731D6FDE1900E5FB49 /* UIBarButtonItem+Extension.m */; };
 		E7F2127B1D6FDE1900E5FB49 /* UIButton+AFFont.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F212751D6FDE1900E5FB49 /* UIButton+AFFont.m */; };
 		E7F2127C1D6FDE1900E5FB49 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F212771D6FDE1900E5FB49 /* UIImage+Extension.m */; };
@@ -60,6 +72,19 @@
 		E7359BDF1D6D95590027845C /* huoyiProhectBeata1_0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = huoyiProhectBeata1_0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7359BE31D6D95590027845C /* huoyiProhectBeata1_0UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = huoyiProhectBeata1_0UITests.m; sourceTree = "<group>"; };
 		E7359BE51D6D95590027845C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7D75E6B1D77D09300DC2C9A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E7D75E6D1D77D09D00DC2C9A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		E7D75E6F1D77D0A700DC2C9A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		E7D75E711D77D0B100DC2C9A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		E7D75E731D77D0B900DC2C9A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		E7D75E751D77D0CB00DC2C9A /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		E7D75E771D77D0D700DC2C9A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E7D75E791D77D0E800DC2C9A /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		E7D75E7B1D77D0F300DC2C9A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		E7D75E7D1D77D0FB00DC2C9A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E7D75E811D77D11E00DC2C9A /* UMVideoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMVideoAd.h; sourceTree = "<group>"; };
+		E7D75E821D77D11E00DC2C9A /* UMVideo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMVideo.bundle; sourceTree = "<group>"; };
+		E7D75E831D77D11E00DC2C9A /* UMVideoSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = UMVideoSDK.a; sourceTree = "<group>"; };
 		E7F212721D6FDE1900E5FB49 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
 		E7F212731D6FDE1900E5FB49 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
 		E7F212741D6FDE1900E5FB49 /* UIButton+AFFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AFFont.h"; sourceTree = "<group>"; };
@@ -79,6 +104,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7D75E7E1D77D0FB00DC2C9A /* Security.framework in Frameworks */,
+				E7D75E7C1D77D0F300DC2C9A /* CoreTelephony.framework in Frameworks */,
+				E7D75E7A1D77D0E800DC2C9A /* libicucore.tbd in Frameworks */,
+				E7D75E781D77D0D700DC2C9A /* AudioToolbox.framework in Frameworks */,
+				E7D75E761D77D0CC00DC2C9A /* CoreMotion.framework in Frameworks */,
+				E7D75E741D77D0B900DC2C9A /* StoreKit.framework in Frameworks */,
+				E7D75E721D77D0B100DC2C9A /* libz.tbd in Frameworks */,
+				E7D75E701D77D0A700DC2C9A /* MediaPlayer.framework in Frameworks */,
+				E7D75E6E1D77D09D00DC2C9A /* CFNetwork.framework in Frameworks */,
+				E7D75E6C1D77D09300DC2C9A /* SystemConfiguration.framework in Frameworks */,
+				E7D75E851D77D11E00DC2C9A /* UMVideoSDK.a in Frameworks */,
 				B190170CB233E00030B1786D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,6 +139,16 @@
 		5C86EBA5E41500CB5A403786 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E7D75E7D1D77D0FB00DC2C9A /* Security.framework */,
+				E7D75E7B1D77D0F300DC2C9A /* CoreTelephony.framework */,
+				E7D75E791D77D0E800DC2C9A /* libicucore.tbd */,
+				E7D75E771D77D0D700DC2C9A /* AudioToolbox.framework */,
+				E7D75E751D77D0CB00DC2C9A /* CoreMotion.framework */,
+				E7D75E731D77D0B900DC2C9A /* StoreKit.framework */,
+				E7D75E711D77D0B100DC2C9A /* libz.tbd */,
+				E7D75E6F1D77D0A700DC2C9A /* MediaPlayer.framework */,
+				E7D75E6D1D77D09D00DC2C9A /* CFNetwork.framework */,
+				E7D75E6B1D77D09300DC2C9A /* SystemConfiguration.framework */,
 				3F73702C18BD64241FCB773C /* libPods.a */,
 			);
 			name = Frameworks;
@@ -156,6 +202,7 @@
 		E7359BBE1D6D95590027845C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E7D75E651D77CF1700DC2C9A /* ThirdFrames */,
 				E7359BCA1D6D95590027845C /* Assets.xcassets */,
 				E7359BCC1D6D95590027845C /* LaunchScreen.storyboard */,
 				E7359BCF1D6D95590027845C /* Info.plist */,
@@ -181,6 +228,40 @@
 				E7359BE51D6D95590027845C /* Info.plist */,
 			);
 			path = huoyiProhectBeata1_0UITests;
+			sourceTree = "<group>";
+		};
+		E7D75E651D77CF1700DC2C9A /* ThirdFrames */ = {
+			isa = PBXGroup;
+			children = (
+				E7D75E661D77CF1700DC2C9A /* YouMiADs */,
+			);
+			path = ThirdFrames;
+			sourceTree = "<group>";
+		};
+		E7D75E661D77CF1700DC2C9A /* YouMiADs */ = {
+			isa = PBXGroup;
+			children = (
+				E7D75E7F1D77D11E00DC2C9A /* lib */,
+			);
+			path = YouMiADs;
+			sourceTree = "<group>";
+		};
+		E7D75E7F1D77D11E00DC2C9A /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				E7D75E801D77D11E00DC2C9A /* include */,
+				E7D75E821D77D11E00DC2C9A /* UMVideo.bundle */,
+				E7D75E831D77D11E00DC2C9A /* UMVideoSDK.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		E7D75E801D77D11E00DC2C9A /* include */ = {
+			isa = PBXGroup;
+			children = (
+				E7D75E811D77D11E00DC2C9A /* UMVideoAd.h */,
+			);
+			path = include;
 			sourceTree = "<group>";
 		};
 		E7F212711D6FDE1900E5FB49 /* HUOGategory */ = {
@@ -327,6 +408,7 @@
 				E7359BCE1D6D95590027845C /* LaunchScreen.storyboard in Resources */,
 				E7359BCB1D6D95590027845C /* Assets.xcassets in Resources */,
 				E7359BC91D6D95590027845C /* Main.storyboard in Resources */,
+				E7D75E841D77D11E00DC2C9A /* UMVideo.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,9 +634,70 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/huoyiProhectBeata1_0/HuoyiPch.pch";
 				INFOPLIST_FILE = huoyiProhectBeata1_0/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/huoyiProhectBeata1_0/ThirdFrames/YouMiADs/lib",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"FMDB\"",
+					"-l\"HappyDNS\"",
+					"-l\"MJExtension\"",
+					"-l\"MJRefresh\"",
+					"-l\"Masonry\"",
+					"-l\"MobClickLibrary\"",
+					"-l\"Qiniu\"",
+					"-l\"ReactiveCocoa\"",
+					"-l\"SDWebImage\"",
+					"-l\"resolv\"",
+					"-l\"sqlite3\"",
+					"-l\"sqlite3.0\"",
+					"-l\"stdc++.6.0.9\"",
+					"-l\"z\"",
+					"-framework",
+					"\"BaiduMapAPI_Base\"",
+					"-framework",
+					"\"BaiduMapAPI_Cloud\"",
+					"-framework",
+					"\"BaiduMapAPI_Location\"",
+					"-framework",
+					"\"BaiduMapAPI_Map\"",
+					"-framework",
+					"\"BaiduMapAPI_Radar\"",
+					"-framework",
+					"\"BaiduMapAPI_Search\"",
+					"-framework",
+					"\"BaiduMapAPI_Utils\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-Wl,-sectcreate,__RESTRICT,__restrict,/dev/null",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.huoyi.huoyiProhectBeata1-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -568,9 +711,70 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/huoyiProhectBeata1_0/HuoyiPch.pch";
 				INFOPLIST_FILE = huoyiProhectBeata1_0/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/huoyiProhectBeata1_0/ThirdFrames/YouMiADs/lib",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"FMDB\"",
+					"-l\"HappyDNS\"",
+					"-l\"MJExtension\"",
+					"-l\"MJRefresh\"",
+					"-l\"Masonry\"",
+					"-l\"MobClickLibrary\"",
+					"-l\"Qiniu\"",
+					"-l\"ReactiveCocoa\"",
+					"-l\"SDWebImage\"",
+					"-l\"resolv\"",
+					"-l\"sqlite3\"",
+					"-l\"sqlite3.0\"",
+					"-l\"stdc++.6.0.9\"",
+					"-l\"z\"",
+					"-framework",
+					"\"BaiduMapAPI_Base\"",
+					"-framework",
+					"\"BaiduMapAPI_Cloud\"",
+					"-framework",
+					"\"BaiduMapAPI_Location\"",
+					"-framework",
+					"\"BaiduMapAPI_Map\"",
+					"-framework",
+					"\"BaiduMapAPI_Radar\"",
+					"-framework",
+					"\"BaiduMapAPI_Search\"",
+					"-framework",
+					"\"BaiduMapAPI_Utils\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-Wl,-sectcreate,__RESTRICT,__restrict,/dev/null",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.huoyi.huoyiProhectBeata1-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
